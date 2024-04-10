@@ -80,7 +80,30 @@ def handle_message(message):
 
 Para rodar o servidor:
 
+Instalar o Python 3:
+```
+https://www.python.org/
+```
+
+Verificar a instalação do Pyhton:
+```
+python --version ou python3 --version
+pip --version
+```
+
+Instalar dependências:
+```
+pip install -U Flask
+pip install flask-socketio
+```
+
+Verificar a instalação das dependências:
+```
+pip list
+``` 
+
+Iniciar Servidor:
 ```python
-python3 server.py
+python server.py ou python3 server.py
 ```
 Isso iniciará o servidor Flask-SocketIO, tornando a aplicação acessível através do endereço http://localhost:8881 ou um endereço/IP específico configurado com host='0.0.0.0' e port=8881.
